@@ -103,7 +103,7 @@ const ColumnContainer=(props: Props)=> {
     Obg-columnBackgroundColor
     px-2
     py-1
-    text-sm rounded-full">
+    text-sm rounded-full draggable-item">
     
     </div>
     {!editMode && column.title}
