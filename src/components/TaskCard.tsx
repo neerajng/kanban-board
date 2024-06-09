@@ -71,7 +71,7 @@ if(isDragging) {
         className="
         opacity-30
       bg-mainBackgroundColor p-2.5 h-[100px] min-h-[100px] items-center flex 
-      text-left rounded-xl border-2 border-rose-500  cursor-grab relative"
+      text-left rounded-xl border-2 border-rose-500  cursor-grab relative draggable-item"
       />
     );
 }
@@ -86,7 +86,7 @@ if(isDragging) {
         className="bg-mainBackgroundColor p-2.5 h-[100px] 
         min-h-[100px] items-center flex text-left rounded-xl
         hover:ring-2 hover: ring-inset hover: ring-rose-500
-        cursor-grab relative task"
+        cursor-grab relative task draggable-item"
         onMouseEnter={() => {
             setMouseIsOver(true);
         }}

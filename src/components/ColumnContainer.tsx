@@ -53,6 +53,7 @@ const ColumnContainer=(props: Props)=> {
         rounded-md
         flex
         flex-col
+        draggable-item
         "
         ></div>
         );
@@ -64,7 +65,7 @@ const ColumnContainer=(props: Props)=> {
     ref={setNodeRef}
     style={style}
     className="
-        Obg-columnBackgroundColor
+        bg-columnBackgroundColor
         w-[350px]
         h-[500px]
         max-h-[500px]
