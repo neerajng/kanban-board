@@ -70,7 +70,7 @@ const ColumnContainer=(props: Props)=> {
         max-h-[500px]
         rounded-md
         flex
-        flex-col">
+        flex-col draggable-item">
 
     {/* Column title */}
     <div
@@ -103,7 +103,7 @@ const ColumnContainer=(props: Props)=> {
     Obg-columnBackgroundColor
     px-2
     py-1
-    text-sm rounded-full draggable-item">
+    text-sm rounded-full ">
     
     </div>
     {!editMode && column.title}
